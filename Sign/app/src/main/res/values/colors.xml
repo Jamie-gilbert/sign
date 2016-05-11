@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pointBlack">#F3000000</color>
+    <color name="pointWhite">#FFFFFF</color>
+    <color name="popbg">#e6eaed</color>
+    <color name="popbg_click">#40ffbc</color>
+    <color name="registertitlebg">#40ffbc</color>
+    <color name="register_edit_bg">#b3b6b5</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#b6b4b4</color>
+    <color name="black2">#55ff0000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="setitem_pressed">#fdb401</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="color_red">#ff0400</color>
+    <color name="wifibg">#097FA7</color>
+
+</resources>

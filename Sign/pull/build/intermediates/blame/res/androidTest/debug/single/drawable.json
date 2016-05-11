@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

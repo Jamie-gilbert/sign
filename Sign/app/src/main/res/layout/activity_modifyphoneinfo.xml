@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_title_updatepass">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <EditText
+    android:id="@+id/et_modifyinfo_userid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="@string/num"
+    android:padding="5dp"
+    android:textSize="18sp" />
+    <EditText
+        android:id="@+id/et_modifyinfo_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/pass"
+        android:padding="5dp"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/et_modifyinfo_phonenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/phonenum"
+        android:padding="5dp"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/bt_modifyinfo_phoneid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/getphhoneid"
+        android:padding="5dp"
+        android:background="@color/gray"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bt_modifyinfo_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/sure"
+        android:padding="5dp"
+        android:textSize="18sp" />
+</LinearLayout>

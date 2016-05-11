@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\res\\merged\\release\\anim\\slide_out_to_bottom.xml",
+        "source": "E:\\AndroidstudioWorkspace\\Sign\\pull\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_from_bottom.xml",
+        "source": "E:\\AndroidstudioWorkspace\\Sign\\pull\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\res\\merged\\release\\anim\\slide_out_to_top.xml",
+        "source": "E:\\AndroidstudioWorkspace\\Sign\\pull\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidstudioWorkspace\\Sign\\pull\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_from_top.xml",
+        "source": "E:\\AndroidstudioWorkspace\\Sign\\pull\\res\\anim\\slide_in_from_top.xml"
+    }
+]

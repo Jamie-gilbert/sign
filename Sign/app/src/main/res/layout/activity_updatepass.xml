@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_updatepass"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_title_updatepass"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/updatepass"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/et_update_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/et_register_num" />
+
+        <EditText
+            android:id="@+id/et_update_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_update_num"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:hint="@string/et_register_pass"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/et_update_newpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_update_pass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:hint="@string/et_register_newpass"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/et_update_repass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_update_newpass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:hint="@string/et_register_repass"
+            android:inputType="textPassword" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_update_repass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_update_diver"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/bt_update_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/tv_update_diver"
+                android:background="@drawable/btn_update_item"
+                android:text="@string/sure" />
+
+            <Button
+                android:id="@+id/bt_update_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_update_diver"
+                android:background="@drawable/btn_update_item"
+                android:text="@string/cancel" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
